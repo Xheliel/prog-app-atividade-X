@@ -2,9 +2,11 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + "/.."))
 
-from project.config.database import get_db
-from project.repositories.usuario_repository import UsuarioRepository
-from project.services.usuario_service import UsuarioService
+from atividade.config.database import get_db
+from atividade.repositories.usuario_repository import UsuarioRepository
+from atividade.services.usuario_service import UsuarioService
+
+os.system("clear")
 
 def exibir_menu():
     print("=== SENAI SOLUTION ===")
